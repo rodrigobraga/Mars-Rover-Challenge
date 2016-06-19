@@ -23,7 +23,7 @@ if __name__ == '__main__':
         # Parse and run instructions.
         commands = instructions.readline().strip()
         for cmd in commands:
-            command = getattr(Command, cmd)
+            command = getattr(Command, cmd, None)
             rover.execute(command)
 
         print(rover)
