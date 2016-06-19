@@ -42,3 +42,15 @@ Expected Output:
 1 3 N
 5 1 E
 ```
+
+# Solution
+
+To run 'solution' you need an enviorement with Docker and Docker Compose.
+
+```
+git clone git@github.com:rodrigobraga/Mars-Rover-Challenge.git
+cd Mars-Rover-Challenge
+make install
+make test
+make mission
+```
