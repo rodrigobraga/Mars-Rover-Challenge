@@ -42,3 +42,14 @@ Expected Output:
 1 3 N
 5 1 E
 ```
+
+# Solution
+
+To run 'solution' you need an enviorement with Python 3 and virtualenv installed.
+
+```
+git clone git@github.com:rodrigobraga/Mars-Rover-Challenge.git
+make install
+make test
+make mission
+```
