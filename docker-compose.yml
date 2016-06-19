@@ -1,0 +1,5 @@
+application:
+    build: ./
+    working_dir: /code
+    volumes:
+        - ./:/code
